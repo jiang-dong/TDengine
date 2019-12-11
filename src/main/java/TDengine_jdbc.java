@@ -6,7 +6,7 @@ import java.sql.Statement;
 import java.util.Properties;
 
 
-public class TDengine {
+public class TDengine_jdbc {
     public static void main(String[] args) throws Exception {
         Connection conn = getConn();
         System.out.println(conn);
